@@ -1,5 +1,5 @@
 import { expect, test } from "bun:test";
-import { Config, PermissionFilter, Roles } from "../.";
+import { Config, PermissionFilter, Roles } from "../src/";
 
 test("Filter with role", () => {
   const config = {
